@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="FixedImageView">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+    </style>
+
+
+    <style name="slidingImg">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20%</item>
+    </style>
+
+    <style name="CustomTextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeColor">@android:color/transparent</item>
+
+    </style>
+
+
+
+
+
+    <style name="DropDownMenuStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+
+
+
+<!--progress dialog-->
+    <style name="AppCompatAlertDialogStyle" parent="android:Theme.Material.Dialog">
+        <item name="android:background">@drawable/rounded_progressdialog_bg</item>
+        <item name="android:textColorPrimary">@color/red</item>
+        <item name="android:textColorSecondary">@color/red</item>
+        <item name="android:textColorHint">@color/red</item>
+        <item name="android:textColorTertiary">@color/black</item>
+        <item name="android:progressBackgroundTint">@color/red</item>
+        <item name="android:colorAccent">@color/red</item>
+        <item name="android:colorControlActivated">@color/red</item>
+    </style>
+
+
+
+<!--    alart dialog-->
+    <style name="AlertDialogStyle" parent="android:Theme.Material.Dialog">
+        <item name="android:background">@drawable/rounded_progressdialog_bg</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/red</item>
+        <item name="android:textColorHint">@color/red</item>
+        <item name="android:textColorTertiary">@color/red</item>
+        <item name="android:progressBackgroundTint">@color/red</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#A00000</item>
+        <!-- Customize your theme here. -->
+
+
+        <item name="android:popupMenuStyle">@drawable/popback</item>
+        <item name="android:popupBackground">@drawable/popback</item>
+    </style>
+
+
+
+
+
+
+
+</resources>

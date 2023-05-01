@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:elevation="15dp"
+        app:cardCornerRadius="15dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@color/dwhite"
+            >
+
+            <RelativeLayout
+                android:id="@+id/cauu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/cau"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hostel_delete"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="left"
+
+                    android:layout_alignParentStart="true"
+                    />
+
+                <ImageView
+                    android:id="@+id/hostel_optn"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    app:srcCompat="@drawable/del"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:padding="1dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="10dp"
+                    style="@style/FixedImageView"
+
+
+                    android:layout_marginTop="5dp"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/namee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/cauu">
+
+
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginEnd="190dp"
+                    android:layout_marginStart="10dp"
+
+                    android:text="Name: "
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textIsSelectable="true"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:textColorLink="@color/red"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_alignParentStart="true"
+                    />
+
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="170dp"
+
+                    android:text="Name"
+                    android:textSize="17sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:textIsSelectable="true"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:textColorLink="@color/red"
+                    android:layout_alignParentEnd="true"
+
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/chnn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/namee">
+
+                <TextView
+                    android:id="@+id/chn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="139dp"
+
+
+                    android:layout_alignParentStart="true"
+                    android:text="Current: "
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/dblack"
+                    android:textIsSelectable="true"
+                    android:layout_alignEnd="@id/chn"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:textColorLink="@color/red"
+                    />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/chn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="170dp"
+
+
+                    android:text="Current hostel"
+                    android:textSize="17sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/dblack"
+                    android:textIsSelectable="true"
+
+
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:textColorLink="@color/red"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/shnn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/chnn">
+
+                <TextView
+                    android:id="@+id/shn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="139dp"
+
+
+                    android:text="Desired: "
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/dblack"
+                    android:textIsSelectable="true"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:textColorLink="@color/red"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignEnd="@id/shn"
+                    />
+
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/shn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="170dp"
+
+                    android:text="Swap hostel"
+                    android:textSize="17sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/dblack"
+                    android:textIsSelectable="true"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:textColorLink="@color/red"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/phnn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/shnn">
+
+                <TextView
+                    android:id="@+id/phone1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="189dp"
+
+                    android:layout_alignParentStart="true"
+                    android:layout_alignEnd="@id/phone"
+                    android:text="Phone: "
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/dblack"
+                    android:textIsSelectable="true"
+
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:textColorLink="@color/red"
+                    />
+
+
+
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="170dp"
+
+                    android:text="Phone"
+                    android:textSize="17sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/dblack"
+                    android:textIsSelectable="true"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:textColorLink="@color/red"
+                    />
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+

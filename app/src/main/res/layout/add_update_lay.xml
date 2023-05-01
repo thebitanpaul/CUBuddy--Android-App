@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/dwhite"
+        android:paddingLeft="21dp"
+        android:paddingRight="21dp"
+        android:paddingBottom="11dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:padding="35dp">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/black"
+            android:id="@+id/title"
+            android:layout_margin="21dp"
+            android:text="Enlist Yourself">
+
+        </TextView>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_name"
+            android:background="@drawable/roundplainwhite"
+            android:padding="14dip"
+            android:id="@+id/name"
+            android:layout_marginBottom="11dp"
+            android:inputType="text"
+            android:textColorHint="#808080">
+        </EditText>
+
+
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:hint="@string/hint_schn"
+                android:background="@drawable/roundplainwhite"
+                style="@style/CustomTextInput"
+                app:boxStrokeWidth="0dp"
+                android:layout_marginBottom="11dp"
+                android:ellipsize="end">
+                <AutoCompleteTextView
+                    android:id="@+id/schostel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:padding="11dp"
+                    android:ellipsize="end">
+
+                </AutoCompleteTextView>
+            </com.google.android.material.textfield.TextInputLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_chn"
+            android:background="@drawable/roundplainwhite"
+            android:padding="14dip"
+            android:id="@+id/chn"
+            android:layout_marginBottom="11dp"
+            android:layout_marginTop="11dp"
+            android:inputType="number"
+            android:textColorHint="#808080">
+        </EditText>
+
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/hint_sshn"
+                android:background="@drawable/roundplainwhite"
+                style="@style/CustomTextInput"
+                app:boxStrokeWidth="0dp"
+                android:ellipsize="end">
+                <AutoCompleteTextView
+                    android:id="@+id/sshostel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:padding="11dp"
+                    android:ellipsize="end">
+
+                </AutoCompleteTextView>
+            </com.google.android.material.textfield.TextInputLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_shn"
+            android:background="@drawable/roundplainwhite"
+            android:padding="14dip"
+            android:id="@+id/shn"
+            android:layout_marginBottom="11dp"
+            android:layout_marginTop="11dp"
+            android:inputType="number"
+            android:textColorHint="#808080">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_phn"
+            android:background="@drawable/roundplainwhite"
+            android:padding="14dip"
+            android:id="@+id/phone"
+            android:layout_marginBottom="11dp"
+            android:layout_marginTop="11dp"
+            android:inputType="number"
+            android:textColorHint="#808080">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enlist"
+            android:background="@drawable/roundplainwhite"
+            android:padding="15dip"
+            android:id="@+id/enlist"
+            android:layout_marginBottom="11dp"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="15dp">
+        </TextView>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+

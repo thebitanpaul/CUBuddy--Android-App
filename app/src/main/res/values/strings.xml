@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CU Buddy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Notes">Here is Some Cheatsheets \n From The CU Toppers</string>
+    <string name="hint_issue"><font size="12">Your concern here</font></string>
+    <string name="hostel_search"><font size="12">Find in:</font></string>
+    <string name="uid"><font size="12">*CU mail id here</font></string>
+    <string name="rno"><font size="12">Room No.</font></string>
+    <string name="hint_chn"><font size="12">Current Room no.</font></string>
+    <string name="hint_shn"><font size="12">Desired Room no.</font></string>
+    <string name="hint_schn"><font size="30">Select Current Hostel</font></string>
+    <string name="hint_sshn"><font size="30">Select Desired Hostel</font></string>
+    <string name="hint_name"><font size="12">First name</font></string>
+    <string name="hint_phn"><font size="12">Your contact number</font></string>
+    <string name="hostel_delete"><font size="11">*Note: Please delete your entry once swap \n is done to avoid unnecessary calls.</font></string>
+    <string name="title_activity_hostel">hostel</string>
+    <string name="filter"><font size="28">Filter</font></string>
+
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

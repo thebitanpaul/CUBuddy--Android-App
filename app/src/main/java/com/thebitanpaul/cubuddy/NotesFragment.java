@@ -155,7 +155,7 @@ public class NotesFragment extends Fragment {
 
 
                 username = "cubuddyapp@gmail.com";
-                password = "gubinceumafutqes";
+                password = "your_password_here";
                 String messageToSendone = itemblock;
                 String messageToSendtwo = itemfloor;
                 String messageToSendthree = rno.getText().toString();
@@ -385,7 +385,7 @@ public class NotesFragment extends Fragment {
         AIML.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                goLink("https://drive.google.com/drive/folders/1bolCGvvV9dKUFH8Uooe3DQGsP4gL1Vwu?usp=share_link");
+                goLink("Your_Google_Drive_Link_Here");
 
             }
         });
@@ -477,7 +477,7 @@ public class NotesFragment extends Fragment {
                         Message message = new MimeMessage(session);
                         message.setFrom(new InternetAddress(username));
                         message.setRecipients(Message.RecipientType.TO,
-                                InternetAddress.parse("20bcs6515@cuchd.in"));
+                                InternetAddress.parse("Your_CUmail_here"));
                         message.setSubject(subject);
                         message.setText(messageToSend);
                         Transport.send(message);

@@ -12,7 +12,7 @@ Install CU Buddy from playstore: https://play.google.com/store/apps/details?id=c
 
 CU Buddy helps Chandigarh University students and faculties to ease their work.
 
-Now CU Buddy app has 1k+ downloads on playstore, with 4.8 Star ratings.
+Now CU Buddy app has 1k+ downloads on playstore, with 4.6 Star ratings.
 
 
 My CU Buddy app is now officially available on Google Playstore.

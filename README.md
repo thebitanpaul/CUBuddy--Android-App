@@ -78,7 +78,10 @@ Android 8 and 8+ devices will support this app.
 
 ## Lessons Learned
 
-This app made me more confident in android development. I learned how to use Firebase-Real Time Database and Firebase-Authentication. I have also learned how to publish an android app at Google playstore and how to frequently push updates. Also learned various implementations of Microsoft PowerAutomate.
+- This app made me more confident in android development.
+- I learned how to use Firebase-Real Time Database and Firebase-Authentication.
+- I have also learned how to publish an android app at Google playstore and how to frequently push updates.
+- Also learned various implementations of Microsoft PowerAutomate.
 
 
 ## About Me

@@ -4,7 +4,7 @@
 
 ## Installation
 
-Install CU Buddy from playstore: https://play.google.com/store/apps/details?id=com.thebitanpaul.cubuddy
+Install CU Buddy from playstore: https://play.google.com/store/apps/details?id=com.thebitanpaul.cubuddy&pli=1
 
 
     

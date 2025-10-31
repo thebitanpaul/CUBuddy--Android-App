@@ -62,14 +62,7 @@ https://github.com/thebitanpaul/movie-guide/assets/99794785/16597910-95f9-404f-8
 
 ## Screenshots
 
-![Screenshot_20230219-035213_CU Buddy](https://github.com/thebitanpaul/movie-guide/assets/99794785/4c9cda7b-5c45-44ee-8cb7-701b6ea5d205)
-![Screenshot_20230219-035223_CU Buddy](https://github.com/thebitanpaul/movie-guide/assets/99794785/883e8852-0f9e-4ad7-8b5d-fa449147d803)
-![Screenshot_20230219-035254_CU Buddy](https://github.com/thebitanpaul/movie-guide/assets/99794785/2e925287-a31c-4b6c-b62c-254d8e2ff455)
-![Screenshot_20230219-035312_CU Buddy](https://github.com/thebitanpaul/movie-guide/assets/99794785/744a3229-2bdf-4488-8acc-cb983a52a742)
-![Screenshot_20230219-035343_CU Buddy](https://github.com/thebitanpaul/movie-guide/assets/99794785/f60f75b5-2a55-454c-b2f5-9a4dfaaae6f1)
-![Screenshot_20230219-035358_CU Buddy](https://github.com/thebitanpaul/movie-guide/assets/99794785/4223f1f3-122d-42bd-a604-50690d653d12)
-![Screenshot_20230219-035416_CU Buddy](https://github.com/thebitanpaul/movie-guide/assets/99794785/81244d38-82c9-4b80-af37-eadb396c6e3e)
-![Screenshot_20230219-040118_CU Buddy](https://github.com/thebitanpaul/movie-guide/assets/99794785/092204a7-4123-48be-8b7f-2e55d0052ce2)
+<table> <tr> <td><img src="https://github.com/thebitanpaul/movie-guide/assets/99794785/4c9cda7b-5c45-44ee-8cb7-701b6ea5d205" width="180"></td> <td><img src="https://github.com/thebitanpaul/movie-guide/assets/99794785/883e8852-0f9e-4ad7-8b5d-fa449147d803" width="180"></td> <td><img src="https://github.com/thebitanpaul/movie-guide/assets/99794785/2e925287-a31c-4b6c-b62c-254d8e2ff455" width="180"></td> <td><img src="https://github.com/thebitanpaul/movie-guide/assets/99794785/744a3229-2bdf-4488-8acc-cb983a52a742" width="180"></td> <td><img src="https://github.com/thebitanpaul/movie-guide/assets/99794785/f60f75b5-2a55-454c-b2f5-9a4dfaaae6f1" width="180"></td> <td><img src="https://github.com/thebitanpaul/movie-guide/assets/99794785/4223f1f3-122d-42bd-a604-50690d653d12" width="180"></td> <td><img src="https://github.com/thebitanpaul/movie-guide/assets/99794785/81244d38-82c9-4b80-af37-eadb396c6e3e" width="180"></td> <td><img src="https://github.com/thebitanpaul/movie-guide/assets/99794785/092204a7-4123-48be-8b7f-2e55d0052ce2" width="180"></td> </tr> </table>
 
 ## Supported Devices
 
